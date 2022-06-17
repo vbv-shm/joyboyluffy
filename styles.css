@@ -1,0 +1,154 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0ch;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    background-color: #1F2937;
+    flex-direction: column;
+    display: flex;
+    flex-shrink: 1;
+    margin: 0px;
+    padding: 0px;
+}
+hrow1 img{
+    width:100px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+    flex-shrink: 1;
+    
+}
+headerlist ul{
+    display: flex;
+    font-size: 18px;
+    color: #e6e7eb;
+    margin-bottom: 50px;
+    margin-right: 250px;
+    flex-shrink: 1;
+}
+li{
+    margin-left: 20px;
+    list-style: none;
+    margin-left: 30px;
+    font: 400;
+}
+hrow1{
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 1;
+}
+
+
+headerinformation{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+}
+
+headerinformation HIheading{
+    font-size: 48px;
+    font-weight: bolder;
+    color:#f9f8fa;
+    margin-left: 200px;
+}
+hrow2{
+    display: flex;
+    flex-shrink: 1;
+}
+headerimage img{
+    width: 300px;
+    margin-left:400px;
+    margin-right: 100px;
+    background-color: transparent   ;
+    flex-shrink: 1;
+}
+
+headerinformation HIpara{
+    font-size: 18px;
+    color: #e6e7eb;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 400px;
+}
+button{
+    width: 80px; 
+    margin-left: 200px;
+    margin-bottom: 10px;
+    background-color: #3882F6;
+    color: aliceblue;
+    font: bold;
+    border-radius: 4px;
+}
+row1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+r1imagedata{
+    display: flex;
+    flex-direction: column;
+}
+r1data{
+    display: flex;
+    justify-content: space-around;
+
+}
+r1imagedata div img{
+    width: 100px;
+    height: 110px;
+}
+r1imagedata div{
+    border-color: #18083d;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 4px;
+}
+r1heading{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #18083d;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+r1imagedata text{
+    text-align: center;
+    font-size: 18px;
+    color: #4d60a9;
+    flex-shrink: 1;
+    font-weight: bolder;
+}
+
+row3{
+    background-color: ;
+}
+
+
+row3{
+
+    text-align: center;
+    background-color: #E5E7EB;
+
+}
+
+row3 div{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-style: italic;
+    font-size: 18px;
+    color: #2c3865;
+}
+
+footer{
+    background-color: #1F2937;
+    text-align: center;
+    color: #E5E7EB;
+    padding: 20px;
+}
